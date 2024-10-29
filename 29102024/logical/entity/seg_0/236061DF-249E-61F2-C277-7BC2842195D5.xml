@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="236061DF-249E-61F2-C277-7BC2842195D5" name="contato">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 11:44:11 UTC</createdTime>
+<ownerDesignName>29102024</ownerDesignName>
+<engineerTo>
+<item key="5A75B094-8529-B07C-EAC5-97CF309F5138" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd telefone" id="11E47041-1558-D3D0-C03D-F8EF15B80037">
+<createdBy>User</createdBy>
+<createdTime>2024-10-29 11:56:28 UTC</createdTime>
+<generatorID>D76C4F6B-DFDA-1978-6A0F-7A48C3CB47CA</generatorID>
+<ownerDesignName>29102024</ownerDesignName>
+<engineerTo>
+<item key="5A75B094-8529-B07C-EAC5-97CF309F5138" value="true"/>
+</engineerTo>
+<referedAttribute>56801FA7-3C5F-3EC0-0D60-AE6F21D8F9F6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
