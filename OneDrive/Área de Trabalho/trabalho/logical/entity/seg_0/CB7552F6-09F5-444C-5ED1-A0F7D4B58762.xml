@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB7552F6-09F5-444C-5ED1-A0F7D4B58762" name="t_sid_invewstimentos">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:18:54 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_investimento" id="2A958789-2AE5-666C-0A7D-66FC43AFF6E0">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:19:22 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num" id="E31C0228-0DFE-45E6-7F25-203254EE08BE">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:19:46 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cate" id="D6E45C6E-8A51-CE99-AB0F-3263A01EA976">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:20:09 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="var" id="517FCCB6-8384-EA37-A680-714345C9E418">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:20:31 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>36723B89-BECE-2D4A-B530-EE3BE6149967</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prec" id="73B44C3A-B43B-A580-4837-A972784AC48E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:20:49 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_deposito" id="E9C53C5F-B26A-A26C-1B13-428365BCF8C0">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:17:52 UTC</createdTime>
+<generatorID>60A934C8-F5AC-433B-3763-F61AB138EC73</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>986E7EAC-8708-9FD5-D523-8E8DC38CA9DE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_perfil" id="181CADAC-0653-2F05-AD48-43A52DCCE541">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:22:08 UTC</createdTime>
+<generatorID>60A934C8-F5AC-433B-3763-F61AB138EC73</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>06F9F456-49D8-9548-5B3B-41314A5F6518</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B111B3B-72FA-C14B-985E-B29E11F5D788" name="t_sid_invewstimentos PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:19:43 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A958789-2AE5-666C-0A7D-66FC43AFF6E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

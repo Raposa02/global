@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFA11817-8769-5038-A1F4-AC6993F3013D" name="t_sid_dividendo">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:21:24 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_dividas" id="45636DC8-A8A0-17F1-001D-8ABBE02CEE41">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:22:09 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_nota" id="02DEAB47-8ABC-439D-91E8-F9F95AA405C2">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:21:49 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>456</dataTypeScale>
+<ownDataTypeParameters>,,456</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_mes" id="0B1F8D35-D764-490F-7164-80950072E633">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:22:29 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_transa" id="41AC63EC-558E-1393-0FDD-AE6AFF7E34AB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:22:51 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_acao" id="32D9FECC-FB13-713B-6EB1-854E614752F2">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:23:12 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_investimento" id="B2B0512F-7E72-4297-208E-B1B20B1EF46D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:43:10 UTC</createdTime>
+<generatorID>2F59F6A5-0429-E414-5DA8-5D205DE0BD18</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2A958789-2AE5-666C-0A7D-66FC43AFF6E0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73E1E5D1-E169-EAE3-380E-985DF3B2E80A" name="t_sid_dividendo PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:22:26 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45636DC8-A8A0-17F1-001D-8ABBE02CEE41</attributeRef>
+<attributeRef>41AC63EC-558E-1393-0FDD-AE6AFF7E34AB</attributeRef>
+<attributeRef>32D9FECC-FB13-713B-6EB1-854E614752F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
