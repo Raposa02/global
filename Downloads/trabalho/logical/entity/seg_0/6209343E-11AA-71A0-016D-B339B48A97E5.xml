@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6209343E-11AA-71A0-016D-B339B48A97E5" name="t_sid_dividas">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:10:48 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_perfil1" id="9778005C-63C0-41D2-8073-5853C168DE91">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:53:00 UTC</createdTime>
+<generatorID>695971CA-1939-2B4F-61A7-A7DFFE279650</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>5D89C827-B896-7C71-CEB8-28B54DCCDE59</referedAttribute>
+<use>0</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_dividas" id="F0516164-3A06-1F90-DF3F-EC7E086120CB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:54:11 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_inicio" id="398DE888-75DF-0B3E-9160-96FAC498C6B8">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:11:04 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat_final" id="6CF624BB-4BED-81CD-86F5-3067A72A797A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:11:38 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cat" id="96BE094B-32F8-0133-D361-BC721BFF54EA">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:11:56 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="not_fiscal" id="37CD327C-3927-1660-077A-5DA8D53B75BA">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:12:16 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_gastos" id="86625C4A-66CC-CE3D-83CD-0C404D17B8CB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:36:57 UTC</createdTime>
+<generatorID>695971CA-1939-2B4F-61A7-A7DFFE279650</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>26EE2CF7-07DB-5BBE-90BF-019BF2908E9B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDDCAF2E-C30F-1A0F-F2E1-5F6188BA295F" name="dividas PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:11:36 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F0516164-3A06-1F90-DF3F-EC7E086120CB,37CD327C-3927-1660-077A-5DA8D53B75BA,9778005C-63C0-41D2-8073-5853C168DE91</newElementsIDs>
+<usedAttributes>
+<attributeRef>F0516164-3A06-1F90-DF3F-EC7E086120CB</attributeRef>
+<attributeRef>37CD327C-3927-1660-077A-5DA8D53B75BA</attributeRef>
+<attributeRef>9778005C-63C0-41D2-8073-5853C168DE91</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

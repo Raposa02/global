@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A257491-27B0-4092-B7C8-5B6484C7753C" name="t_sid_meta">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:26:12 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_meta" id="ECD67463-122E-47BD-A8C2-296F98F0290E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:26:54 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_meta" id="92A38061-D0D1-8194-35F5-D95252241FA5">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:26:31 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_mes" id="EB71D570-9E29-FB19-9A27-FAB3E08F1C58">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:27:03 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="met_diarias" id="30C781AA-3B28-8B2B-0DA9-4AD6FBD4D70D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:27:22 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_perfil" id="55181772-3B3D-7571-A353-99CBAFE5F2F1">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:49:07 UTC</createdTime>
+<generatorID>EAD3E245-105C-08F2-CB8C-F944D32EAF66</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>536D5C05-DB98-318F-E9B3-0325EDB50968</referedAttribute>
+<use>0</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="7831C8A5-FE4F-2E92-4A08-A68148812156">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:49:07 UTC</createdTime>
+<generatorID>EAD3E245-105C-08F2-CB8C-F944D32EAF66</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>7742F70C-34F0-4631-51BE-8362EE836AAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT039</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF" id="3F8C004F-531B-4F52-D59E-13217B71EE0E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:49:07 UTC</createdTime>
+<generatorID>EAD3E245-105C-08F2-CB8C-F944D32EAF66</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>6DA72E0F-38A8-4151-3A31-FD57F6C306D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RG" id="07B9D490-EC7E-459F-6B6E-A0A4892DA8C1">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:49:07 UTC</createdTime>
+<generatorID>EAD3E245-105C-08F2-CB8C-F944D32EAF66</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>86AC2508-4322-7343-9715-220877C4F239</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat" id="4777A956-F7FB-DE9B-758E-3D31643CB3A2">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:49:07 UTC</createdTime>
+<generatorID>EAD3E245-105C-08F2-CB8C-F944D32EAF66</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<referedAttribute>4FEB0243-8607-140B-B9E3-180F5D7E4777</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E096C322-BDE6-1C8D-1B27-3C23279CAFA7" name="t_sid_meta PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:27:58 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>55181772-3B3D-7571-A353-99CBAFE5F2F1,ECD67463-122E-47BD-A8C2-296F98F0290E</newElementsIDs>
+<usedAttributes>
+<attributeRef>55181772-3B3D-7571-A353-99CBAFE5F2F1</attributeRef>
+<attributeRef>ECD67463-122E-47BD-A8C2-296F98F0290E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

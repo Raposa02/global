@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4576664-C138-75A5-35AB-250A38783FDC" name="t_sid_perfil">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:02:58 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>perfil</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_perfil" id="536D5C05-DB98-318F-E9B3-0325EDB50968">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:06:39 UTC</createdTime>
+<notes><![CDATA[codigo perfil]]></notes>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<use>0</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<sensitiveTypeDescription>codigo</sensitiveTypeDescription>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>codigo</preferredAbbreviation>
+</Attribute>
+<Attribute name="nom" id="7742F70C-34F0-4631-51BE-8362EE836AAF">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:07:06 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT039</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<preferredAbbreviation>nome</preferredAbbreviation>
+</Attribute>
+<Attribute name="ema" id="CBF8B707-D89F-8E79-FDD6-E721D27315EF">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:07:53 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>email</preferredAbbreviation>
+</Attribute>
+<Attribute name="CPF" id="6DA72E0F-38A8-4151-3A31-FD57F6C306D1">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:08:50 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RG" id="86AC2508-4322-7343-9715-220877C4F239">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:09:31 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dat" id="4FEB0243-8607-140B-B9E3-180F5D7E4777">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:09:06 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>data_nascimento</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D41DE5A7-D1BE-68DE-BB5E-1E93383B29BB" name="t_sid_perfil PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-03 22:07:05 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<newElementsIDs>536D5C05-DB98-318F-E9B3-0325EDB50968,7742F70C-34F0-4631-51BE-8362EE836AAF,6DA72E0F-38A8-4151-3A31-FD57F6C306D1,86AC2508-4322-7343-9715-220877C4F239,4FEB0243-8607-140B-B9E3-180F5D7E4777</newElementsIDs>
+<usedAttributes>
+<attributeRef>536D5C05-DB98-318F-E9B3-0325EDB50968</attributeRef>
+<attributeRef>7742F70C-34F0-4631-51BE-8362EE836AAF</attributeRef>
+<attributeRef>6DA72E0F-38A8-4151-3A31-FD57F6C306D1</attributeRef>
+<attributeRef>86AC2508-4322-7343-9715-220877C4F239</attributeRef>
+<attributeRef>4FEB0243-8607-140B-B9E3-180F5D7E4777</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C683FF36-06BB-10C6-D0ED-1598856AC3A9" name="t_sid_perfil PKv1">
+<createdBy>User</createdBy>
+<createdTime>2024-11-04 00:50:00 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>536D5C05-DB98-318F-E9B3-0325EDB50968</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
