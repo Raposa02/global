@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="207417BA-E609-890D-90A4-AEFFED0F8C9F" name="t_historico">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 22:58:47 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_historico" id="555D0DD4-B36C-ACD1-7FB8-424E9E40867E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 22:58:58 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="C9E2A761-1A66-4FF4-1B7B-F0F38323A9AE">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:01:23 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="71A36D55-0E89-009C-12EA-CC5327ABE3DC">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:01:48 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quant_material" id="8AA6E738-7C99-2D5D-B23F-C5A86215C3C3">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 22:59:12 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT036</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quant_energia" id="41F42395-8AE9-BB24-799C-FBB3A0BE3E8A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:00:16 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pressao" id="B6656DC4-2A13-3243-0D50-75D17F6417A6">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:02:05 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velocidade" id="1EA0CC11-150A-2EF1-0CE8-4A217D7BEDEE">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:02:41 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gastos" id="E78A5DAC-FCC9-E35C-2A29-7CAD43E47953">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:07:31 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ia" id="8ACCDB89-569F-4CB4-8084-187FF65C5499">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:25:33 UTC</createdTime>
+<generatorID>BB7A869D-D273-586B-8337-513E646244DD</generatorID>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<referedAttribute>24A0732D-B34F-AAFF-0CFD-780AB8B29454</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96E935A2-DF96-F8BA-DF4C-EDE54382D1C1" name="t_historico PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 22:59:11 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>555D0DD4-B36C-ACD1-7FB8-424E9E40867E</attributeRef>
+<attributeRef>8ACCDB89-569F-4CB4-8084-187FF65C5499</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
