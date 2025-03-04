@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD424FB2-EA5F-7AE7-CBAD-FD9723DB238E" name="t_infor_ia">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:09:29 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_infor_ia" id="C7D3713C-39EC-F373-89AA-93D0375D138E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:09:49 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="treinamento" id="DA9DBBFD-FFDB-35E6-352E-1E24AA877265">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:10:25 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aprend" id="497153C0-2349-CCB4-05F7-20EA9F827811">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:11:05 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="config" id="CB08CD46-3E72-A344-5C69-7A3D19E9CB88">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:11:43 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parametros" id="54D3D330-C08A-827A-EA1D-E2671553548D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:12:01 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="2DA8FBA3-5E2A-1179-0228-2114E61EEBB5">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:12:22 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="758EB617-00EE-0A31-DA3C-5DF7097C3211">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:13:23 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ia" id="2988D5DE-BF8D-5F71-B90D-658C0C50A122">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:27:23 UTC</createdTime>
+<generatorID>DD5EE1BE-1894-F86A-5A20-D7190B585E29</generatorID>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<referedAttribute>24A0732D-B34F-AAFF-0CFD-780AB8B29454</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD1720BF-4748-081D-B172-14DBCA0305AB" name="t_infor_ia PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:10:24 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C7D3713C-39EC-F373-89AA-93D0375D138E</attributeRef>
+<attributeRef>2988D5DE-BF8D-5F71-B90D-658C0C50A122</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FBFF2EB-B5F3-8527-E922-6FF798FDEEEB" name="t_ajustes">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:15:35 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_aJUSTES" id="7F21F5FA-9F36-38D9-0C29-08F755ACF288">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:15:52 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_erro" id="C04819D2-F30B-8562-D7F4-D56B38A0326D">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:26:52 UTC</createdTime>
+<generatorID>FF9D3FCA-8157-1810-E7DE-E484F73A20EF</generatorID>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<referedAttribute>8C2E7DD6-649E-D930-D8AC-56E73D59BD30</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discr_ajustes" id="356E90A0-107A-98A8-A023-DA3991EBE2D9">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:16:02 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_ajuste" id="20089D6A-DE0F-A6E2-3602-9324D2FE1FCE">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:16:47 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_ajustes" id="6C1A473D-D4AB-B15A-E29F-6149BAB9FE86">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:17:25 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_ajustes" id="048BC44C-CA41-6111-C529-10B8BCD9E240">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:23:56 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodo_ajuste" id="2354FD49-E5DB-84AE-2D13-B02317CB3385">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:39:51 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_ia" id="CE6B3318-56BB-104B-85B6-D8EEEADE4CEB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:46:50 UTC</createdTime>
+<generatorID>FF9D3FCA-8157-1810-E7DE-E484F73A20EF</generatorID>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<referedAttribute>2FDC71B5-B540-01EF-81C4-12D9D6987C9F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E427B87-D4E1-645D-2008-7386F8E6D802" name="t_ajustes PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-15 23:16:00 UTC</createdTime>
+<ownerDesignName>projetoooooo</ownerDesignName>
+<engineerTo>
+<item key="D79BD803-3622-92B9-F6A9-F29DF909AE33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F21F5FA-9F36-38D9-0C29-08F755ACF288</attributeRef>
+<attributeRef>C04819D2-F30B-8562-D7F4-D56B38A0326D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

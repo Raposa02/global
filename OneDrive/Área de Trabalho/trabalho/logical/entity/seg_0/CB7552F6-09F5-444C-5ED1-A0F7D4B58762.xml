@@ -64,19 +64,6 @@
 <logicalDatatype>36723B89-BECE-2D4A-B530-EE3BE6149967</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prec" id="73B44C3A-B43B-A580-4837-A972784AC48E">
-<createdBy>User</createdBy>
-<createdTime>2024-11-03 22:20:49 UTC</createdTime>
-<ownerDesignName>trabalho</ownerDesignName>
-<engineerTo>
-<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cod_deposito" id="E9C53C5F-B26A-A26C-1B13-428365BCF8C0">
 <createdBy>User</createdBy>
 <createdTime>2024-11-04 00:17:52 UTC</createdTime>

@@ -64,17 +64,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qt_acao" id="32D9FECC-FB13-713B-6EB1-854E614752F2">
-<createdBy>User</createdBy>
-<createdTime>2024-11-03 22:23:12 UTC</createdTime>
-<ownerDesignName>trabalho</ownerDesignName>
-<engineerTo>
-<item key="85433F33-D2F7-4459-045E-AB8AD1AA1BD5" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cod_investimento" id="B2B0512F-7E72-4297-208E-B1B20B1EF46D">
 <createdBy>User</createdBy>
 <createdTime>2024-11-04 00:43:10 UTC</createdTime>
@@ -101,7 +90,6 @@
 <usedAttributes>
 <attributeRef>45636DC8-A8A0-17F1-001D-8ABBE02CEE41</attributeRef>
 <attributeRef>41AC63EC-558E-1393-0FDD-AE6AFF7E34AB</attributeRef>
-<attributeRef>32D9FECC-FB13-713B-6EB1-854E614752F2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
